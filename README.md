@@ -33,8 +33,12 @@ The folder name provides information on the problem parameters, in particular:
 - M: number of M-QAM constellation points 
 - EbN0: signal-to-noise in dB  
 
-The files are structured as following: 
+The `qubo_*.txt` files are structured as following: 
 
 - First line: the number of variables in the QUBO 
 - Second line: the transmitted bits used to generate the problem. This is not the optimal solution of the QUBO, but it is used to derive the optimal solution. The QUBO optimal solutions are stored in the file gs.txt. 
-- Following lines: the QUBO terms as they would appear in a triangular matrix, in a dictionary format: if the key has only 1 term, it is a diagonal term. 
+- Following lines: the QUBO terms as they would appear in a triangular matrix,
+  in a dictionary format: if the key has only 1 term, it is a diagonal term. 
+
+The `y_H_*.npz` files can be restored using the `numpy.load` method. They
+include the `y` vector of the received symbols and the channel matrix `H`.
