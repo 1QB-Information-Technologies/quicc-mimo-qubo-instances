@@ -9,7 +9,7 @@ This dataset was created under the support of the Defense Advanced Research Proj
 
 Work was performed by members of the QuICC team at:
 
--	1QB Information Technology (1QBit)
+-	1QB Information Technologies (1QBit)
 
 You are free to:
 -	Share — copy and redistribute the material in any medium or format
