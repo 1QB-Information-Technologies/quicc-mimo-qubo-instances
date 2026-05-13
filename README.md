@@ -38,7 +38,11 @@ The number of bits transmitted by each symbol is $r= \log_2 M$. We consider
 that $M$ is an even power of two and the QAM constellation has a standard square
 shape. We set the minimum distance between two symbols in the constellation to
 be 
-$$d_{\min} = \sqrt{\frac{6}{M-1}}$$ 
+
+$$
+d_{\min} = \sqrt{\frac{6}{M-1}}
+$$
+ 
 to normalize the average energy of the transmitted QAM signal to unity. This normalization ensures
 that all modulations transmit with the same power per symbol, allowing a fair
 comparison of performance, and that the energy per bit $E_{\rm b}$ is always $1/r$.  
