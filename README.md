@@ -5,7 +5,7 @@ VERSION v2026-05-13.1
 This dataset is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). 
 https://creativecommons.org/licenses/by/4.0/
 
-This dataset was created under the support of the Defense Advanced Research Projects Agency (DARPA), Microsystems Technology Office (MTO), Quantum-Inspired Classical Computing Program (QuICC) and conducted for Phase II of this program during the period 2025-2027.
+This dataset was created under the support of the Defense Advanced Research Projects Agency (DARPA), Microsystems Technology Office (MTO), Quantum-Inspired Classical Computing Program (QuICC) and conducted for Phase II of this program during the period 2025-2026.
 
 Work was performed by members of the QuICC team at:
 
@@ -60,5 +60,5 @@ include the `y` vector of the received symbols and the channel matrix `H`.
 Similarly, the `mimo_*.npz` files can be restored using the `numpy.load` method. They
 include the `y` vector of the received symbols, the channel matrix `H`, the
 `opt_solution_gray` vector, which is the vector of transmitted bits, and the
-`mmse_soltuion_gray` vector, which is the vector of the bits detected by the
+`mmse_solution_gray` vector, which is the vector of the bits detected by the
 MMSE method.
